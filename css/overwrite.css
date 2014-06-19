@@ -1,0 +1,152 @@
+@font-face
+{
+	font-family: Droid Sans;
+	src: url('../fonts/DroidSans.ttf') format('truetype'); }  
+
+@font-face
+{
+	font-family: Nobile;
+	src: url('../fonts/Nobile-Regular.ttf') format('truetype'); }  
+
+@font-face
+{
+	font-family: Source Sans;
+	src: url('../fonts/SourceSansPro-Regular.otf') format('opentype'); }  
+
+@font-face
+{
+	font-family: Helvetica Neue;
+	src: url('../fonts/HelveticaNeue.otf') format('opentype'); }  
+
+@font-face
+{
+	font-family: Amble;
+	src: url('../fonts/Amble-Regular.ttf') format('truetype'); }  
+
+@font-face
+{
+	font-family: Lucida;
+	src: url('../fonts/Lucida.ttf') format('truetype'); }  
+
+html *
+{
+	font-family: 'Roboto', sans-serif; 
+}
+
+/* HOME */
+
+.ui-content {
+    padding: 0px 15px;
+}
+
+a.ui-link-inherit {
+    font-weight: normal;
+    font-size: 0.9em;
+}
+
+a.ui-link-inherit span{
+    color: Gray;
+}
+
+/* MATCH VIEW*/
+
+#imgMatchViewFlag {
+    height: 48px;
+    width: 48px;
+}
+
+.matchView-table {
+    margin: 10px 0 0 0;
+}
+
+.matchView-oddType-heading {
+    font-size: 1em;
+    font-weight: normal;
+    margin: 8px 0;
+}
+
+.matchView-table .teamName {
+    font-size: 1em;
+    font-weight: normal;
+    width: 83%;
+    text-align: left;
+}
+
+.contryFlag {
+    text-align: center; 
+}
+
+.leagueName {
+    font-size: 0.7em;
+    text-align: left; 
+}
+
+.timeMatch {
+    font-size: 0.7em;
+    text-align: center; 
+}
+
+/* SEARCH */
+
+#search-area{
+	padding: 0 10px;    
+}
+
+/* ALL SLIPS */
+
+.custom-ui-li-aside {
+	width: 10%;
+}
+
+/*** Slip Item Styles ***/
+
+.dateMatch {
+    margin: 0;
+}
+
+.killMargin {
+    margin: 0;
+}
+
+.league-ui-li-aside {
+	width: 73%;
+}
+
+.slipStatus-table {
+    padding: 0.5em 0 0 0;
+}
+
+.slip-count-table{
+    margin: 5px 0px 20px 0px;
+}
+
+.slipItem-grid{
+    margin-bottom: 10px;
+}
+
+.slipItem-grid .ui-block-a{
+    width: 80% !important; 
+    font-weight: normal;
+}
+
+.slipItem-grid .ui-block-b{
+    width: 10% !important; 
+    text-align: right;
+    font-weight: normal;
+}
+
+.slipItem-grid .ui-block-c{
+    width: 10% !important; 
+    text-align: right;
+    font-weight: normal;
+}
+
+.slip-status-group-title {
+    font-size: 1em;
+    font-weight: bold;
+    text-align: left;
+    border-bottom: 1px solid #fff;
+    border-color: rgba(255,255,255,.3);
+    padding: 0.4em 0.9em;
+    margin: 0;
+}
